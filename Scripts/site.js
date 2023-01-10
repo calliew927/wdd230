@@ -1,7 +1,7 @@
 //Year for footer
 const today = new Date();
-document.querySelector('#currentyear').textContent = today.getFullYear();
+document.querySelector('#currentYear').textContent = today.getFullYear();
 
 //last motified date
-document.querySelector('#lastmodified').textContent = document.lastModified;
+document.querySelector('#lastModified').textContent = document.lastModified;
 
