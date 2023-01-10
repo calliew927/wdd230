@@ -1,0 +1,44 @@
+body{
+    font-family: Helvetica, Arial, sans-serif
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(8, 8, 89);
+    color: white;
+    border: 2px black solid;
+    
+}
+
+header img{
+    margin: 1rem;
+}
+
+header h1{
+    text-align: center;
+
+}
+
+header div:nth-child(2){
+    width: 100%;
+    float: left;
+}
+
+#content{
+    margin: 0 auto;
+    width: 800px;
+}
+
+Main h2{
+    text-align: center;
+}
+
+Footer{
+    align-items: center;
+    background-color: rgb(8, 8, 89);
+    color: white;
+    border: 2px black solid;
+    text-align: center;
+    padding: 1rem
+}
