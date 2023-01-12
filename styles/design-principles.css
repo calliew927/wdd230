@@ -1,0 +1,15 @@
+big:
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+medium:
+    display:grid;
+    grid-template-colums: 1fr 1fr 2fr;
+
+small:
+    display:grid;
+    grid-template-colums:
+
+    grid-area: s1, s2, s3
+    grid-template-areas:'s1 s2'
+                        's3 s3'
