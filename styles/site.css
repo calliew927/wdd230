@@ -10,7 +10,7 @@ header{
     background-color: rgb(8, 8, 89);
     color: white;
     border: 2px black solid;
-    
+
 }
 
 header img{
@@ -28,7 +28,7 @@ header div:nth-child(2){
 
 #content{
     margin: 0 auto;
-    width: 800px;
+    width: 640px;
 }
 
 main h2{
