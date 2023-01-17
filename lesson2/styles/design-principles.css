@@ -8,8 +8,57 @@ header{
 
 }
 
+#body {
+    display: grid;
+}
+
 h1, h2, h3, h4, h5 {
     font-family: 'Oswald', sans-serif;
+}
+
+#repetition {
+    margin: 1rem;
+    background-color:lightgray;
+    grid-area: s1;
+    border: 2px;
+    border-radius:15px;
+}
+
+#visual-alignment {
+    margin: 1rem;
+    background-color:lightgray;
+    grid-area: s2;
+    border: 2px;
+    border-radius:15px;
+}
+
+#visual-balance {
+    margin: 1rem;
+    background-color:lightgray;
+    grid-area: s3;
+    border: 2px;
+    border-radius:15px;
+}
+
+#body {
+    grid-template-areas: 's1'
+    's2'
+    's3';
+}
+
+#content{
+    margin: 0 auto;
+}
+
+#name {
+    background-color: rgb(8, 8, 89);
+    color: white;
+    border-radius:15px 15px 0px 0px;
+    margin-top: -20px;
+}
+
+h3 {
+    padding: 10px;
 }
 
 p, a {
@@ -23,47 +72,6 @@ img {
     margin: 1rem;
 }
 
-body {
-    display: grid;
-}
-
-#repetition {
-    margin: 1rem;
-    width: 320px;
-    background-color:lightgray;
-    grid-area: s1;
-    border: 2px;
-    border-radius:15px;
-}
-
-#visual-alignment {
-    margin: 1rem;
-    width: 320px;
-    background-color:lightgray;
-    grid-area: s1;
-    border: 2px;
-    border-radius:15px;
-}
-
-#visual-balance {
-    margin: 1rem;
-    width: 320px;
-    background-color:lightgray;
-    grid-area: s1;
-    border: 2px;
-    border-radius:15px;
-}
-
-#name {
-    background-color: rgb(8, 8, 89);
-    color: white;
-    border-radius:15px 15px 0px 0px;
-}
-
-h3 {
-    padding:10px;
-}
-
 footer{
     align-items: center;
     background-color: rgb(8, 8, 89);
@@ -72,25 +80,13 @@ footer{
     text-align: center;
     padding: 1rem;
 }
-@media screen and (max-width: 340px) {
-    #content{
-        margin: 0 auto;
-        width: 340px;
-    }
-    body {
-        grid-template-areas: "s1" 
-        "s2" 
-        "s3"; 
-    }
-}
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 340px) {
     #content{
         margin: 0 auto;
-        width: 640px;
     }
-    body {
-        grid-template-areas: "s1 s2" 
+    #body {
+       grid-template-areas: "s1 s2" 
         "s3 s3"; 
     }
 }
@@ -98,10 +94,9 @@ footer{
 @media screen and (min-width: 768px) {
     #content{
         margin: 0 auto;
-        width: 1200px;
     }
-    body {
-        grid-template-areas: "s1 s2 s3"; 
+    #body {
+       grid-template-areas: "s1 s2 s3"; 
     }
 }
     
