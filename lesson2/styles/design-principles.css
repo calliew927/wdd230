@@ -81,7 +81,7 @@ footer{
     padding: 1rem;
 }
 
-@media screen and (min-width: 340px) {
+@media screen and (min-width: 440px) {
     #content{
         margin: 0 auto;
     }
