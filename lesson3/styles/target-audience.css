@@ -1,9 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Roboto&display=swap');
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Lilita One', cursive;
+    font-family: 'Lilita One', serif;
 }
 
 p, ul, li {
     font-family: 'Roboto', sans-serif;
 }
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+img { 
+    padding: 1.5rem;
+}
+
+p, ul, h1, h2, h3, h4, h5, h6 {
+    margin: 1.5rem;
+}
+
+#logo {
+    width: 25%;
+    max-width: 150px;
+}
+
+body {
+    background-color: #CCE3DE;
+}
+
+#persona1, #persona2 {
+ display: flex;
+
+}
+
+#gunther {
+    width: 33%;
+    height: 33%;
+    max-width: 200px;
+}
+
+#photo {
+    width: 85%;
+    height: 85%;
+    max-width: 200px;
+}
+

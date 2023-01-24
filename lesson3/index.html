@@ -4,22 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <scripts rel="javascript" href="./scripts/index.js" defer></scripts>
     <meta name="discription" content="Grangeville Chamber of Commerse Home Page">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Roboto&display=swap" rel="stylesheet">
     <title>Grangeville Chamber of Commerse</title>
 </head>
-<body>
+<body> 
     <header>
-        <div id="logo">
-            <img src="./images/grangeville-logo.png" alt="Grangeville Chamber of Commerse">
-        </div>
-       <h1>Grangeville Chamber of Commerse</h1> 
+        <img src="./images/grangeville-logo.png" alt="Grangeville Chamber of Commerse" id="logo">
+        <h1>Grangeville Chamber of Commerse</h1> 
     </header>
-    <nav>
+    <nav id="navbar">
+        <button id="ham-menu">
+            <span id="menu-close">&equiv;</span></button>
+            <span id="menu-open">x</span>
         <ul>
-            <li><a href="./index.html">Home</a></li>
+            <li class="active"><a href="./index.html">Home</a></li>
             <li><a href="./design.html">Design</a></li>
             <li><a href="./target-audience.html">Target Audience</a></li>
         </ul>
