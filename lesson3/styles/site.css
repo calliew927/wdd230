@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Roboto&display=swap');
+
+/*All Pages*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lilita One', serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+header, footer, main {
+  max-width: 1200px;
+  min-width: 480px;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 1rem;
+}
+header, footer {
+  background-color: #6B9080;
+  text-align: center;
+  color: white;
+}
+
+header {
+    display: flex;
+}
+
+img { 
+    padding: 1.5rem;
+}
+
+p, ul, h1, h2, h3, h4, h5, h6 {
+    margin: 1.5rem;
+}
+
+#logo {
+    width: 25%;
+    max-width: 150px;
+}
+
+nav {
+    background-color: #A4C3B2;
+    max-width: 1230px; 
+    min-width: 480px;
+    margin: 0 auto;
+    border: 1px solid black;  
+}
+  
+nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding-inline-start: 0px;
+    margin-block: 0px;
+    width: 100%;
+    background-color: #A4C3B2;  
+}
+  
+nav ul li {
+    border: 1px solid black;
+    width: 100%;
+    color: black;
+}
+  
+nav a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;    
+    color: black;
+}
+  
+nav a:hover {
+    background-color: #F6FFF8;  
+    color: black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.active {
+    background-color: #6B9080;
+    color: white;
+}
+  
+/*#navbar {
+    display: none;
+}
+
+#menu-open {
+    display: none;
+}
+
+#menu-close {
+    display: inline;
+}
+
+#navbar.meu-active {
+    display: flex
+}
+
+#menu-open.menu-active {
+    display: inline;
+}
+
+#menu-close.menue-active {
+    display: none;
+}*/
+
+body {
+    background-color: #CCE3DE;
+}
+
+@media screen and (min-width: 640px) {
+    nav ul {
+      flex-direction: row;
+    }
+
+    nav ul li {
+      text-align: center;
+    }
+    
+} 
+
+/*Design Page*/
+#colors {
+    width: 90%;
+    height: 90%;
+    max-width: 650px ;
+}
+
+/*Target Audience Page*/
+#persona1, #persona2 {
+    display: flex;
+}
+   
+#gunther {
+    width: 33%;
+    height: 33%;
+    max-width: 200px;
+}
+   
+#photo {
+    width: 85%;
+    height: 85%;
+    max-width: 200px;
+}
