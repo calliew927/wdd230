@@ -30,7 +30,7 @@ img {
     padding: 1.5rem;
 }
 
-p, ul, h1, h2, h3, h4, h5, h6 {
+p, h1, h2, h3, h4, h5, h6 {
     margin: 1.5rem;
 }
 
@@ -83,8 +83,15 @@ table {
     background-color: #6B9080;
     color: white;
 }
-  
-/*#navbar {
+
+/*Hamburger Menu*/
+#ham-menu {
+    background-color: #A4C3B2;
+    border: none;
+    font-size: 1.5rem;
+}
+
+#navbar {
     display: none;
 }
 
@@ -96,17 +103,17 @@ table {
     display: inline;
 }
 
-#navbar.meu-active {
-    display: flex
+#navbar.menu-active {
+    display: flex;
 }
 
 #menu-open.menu-active {
     display: inline;
 }
 
-#menu-close.menue-active {
+#menu-close.menu-active {
     display: none;
-}*/
+}
 
 body {
     background-color: #CCE3DE;
@@ -119,6 +126,14 @@ body {
 
     nav ul li {
       text-align: center;
+    }
+
+    #ham-menu{
+        display: none;
+    }
+
+    #navbar {
+        display: flex;
     }
     
 } 
