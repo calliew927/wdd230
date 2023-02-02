@@ -24,5 +24,5 @@ button.addEventListener('click', () => {
 
     chapter.focus();
 
-    chapter.value = '';
+    chapter.value = ''; 
 })
