@@ -10,4 +10,8 @@ let date = new Date();
 let year = date.getFullYear();
 document.querySelector('#currentYear').innerHTML = year
 
-document.querySelector('#lastModified').textContent = document.lastModified
+document.querySelector('#lastModified').textContent = document.lastModified 
+
+const fulldate = new Intl.DateTimeFormat('en-US', { dateStyle: 'full' }).format( new Date() );
+document.querySelector('#current-date').textContent = fulldate;
+

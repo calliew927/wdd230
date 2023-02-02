@@ -1,18 +1,32 @@
 @media screen and (min-width: 640px) {
-    nav ul {
-      flex-direction: row;
-    }
+  nav ul {
+    flex-direction: row;
+  }
 
-    nav ul li {
-      text-align: center;
-    }
+  nav ul li {
+    text-align: center;
+  }
 
-    #ham-menu{
-        display: none;
-    }
+  #ham-menu{
+      display: none;
+  }
 
-    #navbar {
-        display: flex;
-    }
+  #navbar {
+      display: flex;
+  }
     
+  #main{
+    display: grid;
+    grid-template-areas: "b a a f"
+                         "d a a f"
+                         "e c c f";
+  }    
+
+  #spot3{    
+    display: block;    
+  } 
+
+  #spotlight{
+    flex-direction: column;
+  }
 }

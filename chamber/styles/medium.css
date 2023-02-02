@@ -1,3 +1,18 @@
-@media screen and (min-width: 640px) {
-    
+@media screen and (min-width: 600px) {
+    #join{
+        display: block;
+    }    
+
+    #main{
+        display: grid;
+        grid-template-areas: "a a a"
+                             "c c c"
+                             "f f f"
+                             "e e e"
+                             "b b d";
+    }
+
+    #spotlight{
+        display: flex;
+    }
 }

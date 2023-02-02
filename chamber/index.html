@@ -12,84 +12,82 @@
     <link rel="stylesheet" href="./styles/large.css">
     <link rel="icon" href="./favicon.ico" >
     <script src='./scripts/site.js' defer></script>
+    <script src="./scripts/main.js" defer></script>
     <title>Grangeville Chamber of Commerse</title>
 </head>
-<body>
+<body> 
     <header>
+        <div id="meet-greet">Come join us Wednesday at 7PM!</div>
         <div id="main-head">
-            <img src="./images/grangeville-logo.png" alt="Grangeville Chamber of Commerse" class="logo">
+            <a href="./index.html"><img src="./images/grangeville-logo.png" alt="Grangeville Chamber of Commerse" class="logo"></a>
             <div>
                 <h1>Grangeville</h1>
                 <h2>Chamber of Commerse</h2>
             </div>
-           
             <div id="social-media">
-                <img src="./images/facebook-logo.png" alt="Facebook" class="social">
-                <img src="./images/insta-logo.jpg" alt="Instagram" class="social">
-                <img src="./images/linkedin-logo.png" alt="LinkedIn" class="social">
+                <a href="https://www.facebook.com/grangevillechamber"><img src="./images/facebook-logo.png" alt="Facebook" class="social"></a>
+                <a><img src="./images/linkedin-logo.png" alt="LinkedIn" class="social"></a>
             </div>
         </div>
-        <div>
-            <h3 id="current-date"></h3>
-        </div>
+        <nav>
+            <button id="ham-menu">
+                <span id="menu-close">&equiv;</span>
+                <span id="menu-open">x</span>
+            </button>
+            <ul id="navbar">
+                <li class="active"><a href="./index.html">Home</a></li>
+                <li><a href="./discover.html">Discover</a></li>
+                <li><a href="./directory.html">Directory</a></li>
+                <li><a href="./join.html">Join</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h3 id="current-date"></h3>
     </header>
-    <nav>
-        <button id="ham-menu">
-            <span id="menu-close">&equiv;</span>
-            <span id="menu-open">x</span>
-        </button>
-        <ul id="navbar">
-            <li class="active"><a href="./index.html">Home</a></li>
-            <li><a href="./discover.html">Discover</a></li>
-            <li><a href="./directory.html">Directory</a></li>
-            <li><a href="./join.html">Join</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    <main>
-        <div id="hero">
+    <main id="main">
+        <section id="hero">
             <p>Hero with site name and call to action</p>
-        </div>
-        <div id="event">
+        </section>
+        <section id="event">
             <p>Event</p>
-        </div>
-        <div id="weather">
+        </section>
+        <section id="weather">
             <p>Weather</p>
-        </div>
-        <div id="newsRelease">
+        </section>
+        <section id="newsRelease">
             <p>News Release</p>
-        </div>
-        <div id="spotlight">
-            <div id="1">
+        </section>
+        <section id="spotlight">
+            <div id="spot1">
                 <p>Spotlight 1</p>
             </div>
-            <div id="2">
+            <div id="spot2">
                 <p>Spotlight 2</p>
             </div>
-            <div id="3">
+            <div id="spot3">
                 <p>Spotlight 3</p>
             </div>
-        </div>
-        <div id="join">
+        </section>
+        <section id="join">
             <p>Join</p>
-        </div>
+        </section>
     </main>
     <footer>
         <div id="footer-main">
-            <img src="./images/grangeville-logo.png" alt="Grangeville Chamber of Commerse" class="logo">
+            <a href="./index.html"><img src="./images/grangeville-logo.png" alt="Grangeville Chamber of Commerse" class="logo"></a>
             <div>
                 <h1>Grangeville Chamber of Commerse</h1> 
                 <p>614n Pine St</p>
                 <p>Grangeville, ID 83530</p>
+                <p><a href="https://goo.gl/maps/Dbgr6f6RGytQrnRLA">Google Maps Location</a></p>
             </div>
             <div>
                 <p>dana@grangevilleidaho.com</p>
                 <p>(208)983-0460</p>
-                <p><a href="https://goo.gl/maps/Dbgr6f6RGytQrnRLA">Google Maps Location</a></p>
             </div>
         </div>
         <hr>
-        <p>&copy; <span id='currentYear'></span> Grangeville Chamber | <bold>Callie Smith</bold> | Rexburg, ID | WDD 230 Project | 
+        <p id="footer-bottom">&copy; <span id='currentYear'></span> Grangeville Chamber | <bold>Callie Smith</bold> | Rexburg, ID | WDD 230 Project | 
             Last Updated: <span id='lastModified'></span></p>
     </footer>
 </body>
