@@ -87,7 +87,8 @@ nav ul li {
   
 nav a {
     display: block;
-    padding: .5rem;
+    padding: 1rem;
+    font-size: 1.5rem;
     text-decoration: none;    
     color: black;
 }
@@ -119,10 +120,14 @@ table {
 
 #menu-open {
     display: none;
+    font-size: 2rem;
+    padding: 1.5rem;
 }
 
 #menu-close {
     display: inline;
+    font-size: 2rem;
+    padding: 1.5rem;
 }
 
 #navbar.menu-active {
@@ -157,12 +162,20 @@ body {
 
 #hero{
     grid-area: a;
+    position: relative;
+    padding: 0rem !important;
 }
 
 #hero-photo {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+#hero button {
+    position: absolute;
+    bottom: 25px;
+	right: 50px;
 }
 
 #event{
@@ -173,6 +186,10 @@ body {
     grid-area: c;
 }
 
+#newsRelease ul li{
+    font-size: 1.25rem;
+}
+
 #weather{
     grid-area: d;
 }
@@ -180,6 +197,11 @@ body {
 #join{
     grid-area: e;
     display: none;
+}
+
+.join {
+    padding: 20px;
+    font-size: 1.5rem;
 }
 
 #spotlight{
