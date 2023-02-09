@@ -191,11 +191,13 @@ body {
 
 #weather{
     grid-area: d;
+    text-align: center;
 }
 
 #join{
     grid-area: e;
     display: none;
+    align-content: center;
 }
 
 .join {
