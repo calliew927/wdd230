@@ -180,6 +180,12 @@ body {
 	right: 50px;
 }
 
+#hero section h2 {
+    position: absolute;
+    top: 25px;
+	left: 50px;
+}
+
 #event{
     grid-area: b;
 }
