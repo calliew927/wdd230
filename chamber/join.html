@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./styles/small.css">
     <link rel="stylesheet" href="./styles/medium.css">
     <link rel="stylesheet" href="./styles/large.css">
+    <script src='./scripts/join.js' defer></script>
     <script src='./scripts/site.js' defer></script>
     <title>Join the Grangeville Chamber of Commerse</title>
 </head>
@@ -40,7 +41,13 @@
             <h3 id="current-date"></h3>
         </div>
     </header>
-    <h1>Currently Under Construction</h1>
+    <main>
+        <h1>Currently Under Construction</h1>
+        <form action="# method=get">
+            <input type="hidden" name="todaysdate" id="hiddendate" value="">
+            <input type="submit" name="submit" value="Submit">
+        </form>
+    </main>
     <footer>
         <div>
             <img src="./images/grangeville-logo.png" alt="Grangeville Chamber of Commerse" id="logo">
