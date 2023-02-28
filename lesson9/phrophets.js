@@ -20,7 +20,7 @@ const displayProphets = (prophets) => {
         card.innerHTML = `<h2>${prophet.name} ${prophet.lastname}</h2>
         <h3>Date of Birth: ${prophet.birthdate}</h3>
         <h3>Place of Birth: ${prophet.birthplace}</h3>
-        <img src='${prophet.imageurl} height='440' width='340' loading='lazy'>`;
+        <img src='${prophet.imageurl}' height='440' width='340' loading='lazy'>`;
         cards.appendChild(card);
     })
 }
