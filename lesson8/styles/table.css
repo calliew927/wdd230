@@ -1,0 +1,15 @@
+table {
+    border: 1px black;
+    border-collapse:collapse;
+}
+
+thead tr {
+    background-color: beige;
+}
+
+thead tr:nth-child(2) th:nth-child(1){
+    background-color: beige;
+    border-top: 1px beige solid;
+}
+
+thead tr
