@@ -4,12 +4,35 @@ table {
 }
 
 thead tr {
-    background-color: beige;
+    background-color: black;
+    color: white
 }
 
 thead tr:nth-child(2) th:nth-child(1){
-    background-color: beige;
-    border-top: 1px beige solid;
+    background-color: black;
+    border-top: 1px black solid;
+
 }
 
-thead tr
+thead tr:nth-child(2) th {
+    background-color: #232b2b;
+}
+
+tr {
+    background-color: white;
+}
+
+tbody tr:nth-child(even){
+    background-color: #D3D3D3;
+}
+
+td, th{
+    border: 1px grey solid;
+    padding: 1rem;
+    text-align: center;
+}
+
+caption {
+    padding: 1rem;
+    caption-side: bottom;
+}
