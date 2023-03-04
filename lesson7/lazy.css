@@ -1,0 +1,11 @@
+picture img{            
+    display: block;
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
+    filter: blur(0.0em);
+    transition: filter .5s;
+    margin: 5px;
+}
+
+picture img[data-src]{
+    filter: blur(0.3em);
+}
