@@ -10,9 +10,20 @@
     grid-area: i;
 }
 
+#lastvisited {
+    grid-area: j;
+}
+
 main{
     margin-right: 2rem;
     margin-left: 2rem;
+    display: grid;
+    grid-template-areas: "g"
+                         "h"
+                         "h"
+                         "i"
+                         "i"
+                         "j";
 }
 
 @media screen and (min-width: 600px) {
@@ -20,13 +31,14 @@ main{
         display: grid;
         grid-template-areas: "g h"
                              "i h"
-                             "i";
+                             "i j"
     }
 }
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1300px) {
     main {
         display: grid;
         grid-template-areas: "g h i"
+                             "j h i"
     }
 }
