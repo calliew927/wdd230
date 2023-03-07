@@ -15,55 +15,113 @@
 </head>
 <body>
     <header>
-        <div id="main-nav">
-            <img src="./images/grangeville-logo.png" alt="Grangeville Chamber of Commerse" id="logo">
-            <h1>Grangeville Chamber of Commerse</h1> 
-            <nav>
-                <button id="ham-menu">
-                    <span id="menu-close">&equiv;</span>
-                    <span id="menu-open">x</span>
-                </button>
-                <ul id="navbar">
-                    <li class="active"><a href="./index.html">Home</a></li>
-                    <li><a href="./discover.html">Discover</a></li>
-                    <li><a href="./directory.html">Directory</a></li>
-                    <li><a href="./join.html">Join</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
-                </ul>
-            </nav>
+        <div id="meet-greet">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
+        <div id="main-head">
+            <a href="./index.html"><img src="./images/grangeville-logo.webp" alt="Grangeville Chamber of Commerse" class="logo"></a>
+            <div>
+                <h1>Grangeville</h1>
+                <h2>Chamber of Commerse</h2>
+            </div>
             <div id="social-media">
-                <img src="./images/facebook-logo.png" alt="Facebook">
-                <img src="./images/insta-logo.jpg" alt="Instagram">
-                <img src="./images/linkedin-logo.png" alt="LinkedIn">
+                <a href="https://www.facebook.com/grangevillechamber" target="_blank"><img src="./images/facebook-logo.png" alt="Facebook" class="social"></a>
+                <a href="instagram.com" target="_blank"><img src="./images/linkedin-logo.png" alt="LinkedIn" class="social"></a>
             </div>
         </div>
-        <div>
-            <h3 id="current-date"></h3>
-        </div>
+        <nav>
+            <button id="ham-menu">
+                <span id="menu-close">&equiv;</span>
+                <span id="menu-open">x</span>
+            </button>
+            <ul id="navbar">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./discover.html">Discover</a></li>
+                <li><a href="./directory.html">Directory</a></li>
+                <li class="active"><a href="./join.html">Join</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h3 id="current-date">x</h3>
     </header>
     <main>
-        <h1>Currently Under Construction</h1>
-        <form action="# method=get">
-            <input type="hidden" name="todaysdate" id="hiddendate" value="">
-            <input type="submit" name="submit" value="Submit">
-        </form>
+        <table>
+            <tbody>
+                <tr>
+                    <form method="GET" action="thankyou.html" >
+                        <input type="hidden" name="todaysdate" id="hiddendate" value="">
+                        <label for="fname">First Name
+                            <input type="text" id="fname" name="fname" required>
+                        </label><br>
+                        <label for="lname">Last Name
+                            <input type="text" id="lname" name="lname" required>
+                        </label><br>
+                        <label for="busposition">Business Position
+                            <input type="text" id="busposition" name="busposition">
+                        </label><br>
+                        <label for="email">Email
+                            <input type="email" id="email" name="email" required>
+                        </label><br>
+                        <label for="phone">Phone Number
+                            <input type="tel" id="phone" name="phone" required>
+                        </label><br>            
+                        <label for="busname">Business Name
+                            <input type="title text" id="busname" name="busname" required>
+                        </label><br>            
+                        <label for="busdis">Business Discription
+                            <input type="text" id="busdis" name="busdis" required>
+                        </label><br>
+                        <label for="memlvl">Membership Level
+                            <select id="memlvl" name="memlvl" required>
+                                <option value="-" selected disabled>Select One</option>
+                                <option value="np">Non Profit</option>
+                                <option value="bronse">Bronse</option>
+                                <option value="silver">Silver</option>
+                                <option value="gold">Gold</option>
+                        </label><br>            
+                        <input type="submit" name="submit" value="Submit">
+                    </form>
+                </tr>
+                <tr>
+                    <img src="./images/join/nonprofit.png" alt="Non Profit">
+                    <h3>Non Profit</h3>
+                    <h4>Cost: $0</h4>
+                    <p>This is for those of you who are working in a Non Profit business. 
+                        You will enjoy all the perks of the Gold membership with no cost 
+                        due to you being a non profit business.
+                    </p>
+                    <img src="./images/join/bronse.jpg" alt="Bronse">
+                    <h3>Bronse</h3>
+                    <h4>Cost: $0</h4>
+                    <p>For the Bronse membership you will </p>
+                    <img src="./images/join/silver.jpg" alt="Silver">
+                    <h3>Bronse</h3>
+                    <h4>Cost: $0</h4>
+                    <p>For the Bronse membership you will </p>
+                    <img src="./images/join/gold.jpg" alt="Gold">
+                    <h3>Bronse</h3>
+                    <h4>Cost: $0</h4>
+                    <p>For the Bronse membership you will </p>
+                </tr>
+            membership levels-4
+            </tbody>
+        </table>
+
     </main>
     <footer>
-        <div>
-            <img src="./images/grangeville-logo.png" alt="Grangeville Chamber of Commerse" id="logo">
+        <div id="footer-main">
+            <a href="./index.html"><img src="./images/grangeville-logo.webp" alt="Grangeville Chamber of Commerse" class="logo"></a>
             <div>
                 <h1>Grangeville Chamber of Commerse</h1> 
                 <p>614n Pine St</p>
                 <p>Grangeville, ID 83530</p>
+                <p><a href="https://goo.gl/maps/Dbgr6f6RGytQrnRLA" target="_blank">Google Maps Location</a></p>
             </div>
             <div>
                 <p>dana@grangevilleidaho.com</p>
                 <p>(208)983-0460</p>
-                <p><a href="https://goo.gl/maps/Dbgr6f6RGytQrnRLA">Google Maps Location</a></p>
             </div>
         </div>
         <hr>
-        <p>&copy; <span id='currentYear'></span> Grangeville Chamber | <bold>Callie Smith</bold> | Rexburg, ID | WDD 230 Project | 
+        <p id="footer-bottom">&copy; <span id='currentYear'></span> Grangeville Chamber | <span id="name">Callie Smith</span> | Rexburg, ID | WDD 230 Project | 
             Last Updated: <span id='lastModified'></span></p>
     </footer>
 </body>
