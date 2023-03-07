@@ -2,7 +2,6 @@
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
-const speed = document.querySelector('#windSpeed');
 const api = '0a72db990289a77a6fd8b2f017c97da0';
 const lat = '45.9266';
 const lon = '-116.1224';
@@ -16,7 +15,7 @@ function displayResults(weatherData) {
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
     captionDesc.textContent = desc
-    speed.textContent = wind
+
 
     let desc = data.weather[0].main;
     let temp = data.main.temp.toFixed();
@@ -38,5 +37,3 @@ async function apiFetch() {
 }
   
 apiFetch();
-
-

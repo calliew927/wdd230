@@ -1,6 +1,7 @@
+const speed = document.querySelector('#windSpeed')
+const currtemp = document.querySelector('#temp')
+
 function showWeather(temp,windspeed) {
-    let tempobj = document.querySelector('#temp');
-    let windobj = document.querySelector('#windSpeed');
     let windchillobj = document.querySelector('#windchill');
 
     let chillmsg = 'n/a'
@@ -9,9 +10,9 @@ function showWeather(temp,windspeed) {
         let chillmsg = `${chill}&deg; F`;
     }
 
-    tempobj.textContent = temp;
-    windobj.textContent = windspeed;
+    currtemp.textContent = temp;
+    speed.textContent = windspeed;
     windchillobj.innerHTML = chillmsg;
 }
 
-showWeather(50, 5)
+showWeather(currtemp, speed)
