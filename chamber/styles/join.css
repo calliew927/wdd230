@@ -30,7 +30,7 @@ input, textarea, select {
 textarea {
     height: 150px;
 }
-#button {
+button {
     background-color: #A4C3B2;
     color: black;
     padding: 1rem;
