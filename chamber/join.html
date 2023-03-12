@@ -63,20 +63,19 @@
                     <input type="tel" id="phone" name="phone" placeholder="Ex: (999)999-9999" required>
                 </label>            
                 <label for="busname">Business Name:
-                    <input type="title text" id="busname" name="busname" placeholder="Ex: Amazon" required>
+                    <input type="text" id="busname" name="busname" placeholder="Ex: Amazon" required>
                 </label>            
                 <label for="busdis">Business Discription:
-                    <input type="text" id="busdis" name="busdis" placeholder="" required>
+                    <textarea id="busdis" name="busdis" placeholder="Discribe your business" required>
                 </label>
-                <label for="memlvl">Membership Level:
+                <label for="memlvl">Membership Level:</label>
                     <select id="memlvl" name="memlvl" required>
-                        <option value="-" selected disabled>Select One</option>
+                        <option value="" selected disabled>Select One</option>
                         <option value="np">Non Profit</option>
                         <option value="bronse">Bronse</option>
                         <option value="silver">Silver</option>
-                        <option value="gold">Gold</option>
-                </label>          
-                <input type="submit" name="submit" value="Submit" id="button">
+                        <option value="gold">Gold</option>         
+                <button id="button"><input type="submit" name="submit" value="Submit" ></button>
             </form>
             <div id="membership-lvl">
                 <h2>Our Membership options</h2>
