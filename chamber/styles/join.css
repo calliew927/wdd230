@@ -39,9 +39,10 @@ button {
     cursor: pointer;
     font-size: 16px;
 }
-#button:hover {
+button:hover {
     background-color: #EaF4F4;
 }
+
 #membership-lvl {
     background-color: #EaF4F4;
     padding: 1rem;
