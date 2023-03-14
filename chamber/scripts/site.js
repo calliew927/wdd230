@@ -15,3 +15,4 @@ document.querySelector('#lastModified').textContent = document.lastModified
 const fulldate = new Intl.DateTimeFormat('en-US', { dateStyle: 'full' }).format( new Date() );
 document.querySelector('#current-date').textContent = fulldate;
 
+//document.querySelector('.join').addEventListener('click', window.location.href='calliew927.github.io/wdd230/chamber/join.html');
