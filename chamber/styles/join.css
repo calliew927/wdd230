@@ -3,8 +3,7 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
     margin: 1.25rem auto;
-    max-width: 1500px;
-    box-shadow: 0px 2px 10px #6B9080;
+    max-width: 1200px;
     padding: 1rem;
     background-color: #f6fff8;
 }
@@ -40,13 +39,12 @@ button {
     font-size: 16px;
 }
 button:hover {
-    background-color: #EaF4F4;
+    background-color: #6B9080;
 }
 
 #membership-lvl {
     background-color: #EaF4F4;
     padding: 1rem;
-    box-shadow: 0px 2px 10px #6B9080;
     display: flex;
     flex-direction: column;
     align-items: center;

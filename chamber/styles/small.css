@@ -103,7 +103,6 @@ table {
 
 .active {
     background-color: #6B9080;
-    color: white;
 }
 
 /*Hamburger Menu*/
@@ -150,7 +149,7 @@ body {
     border: .5px solid black;
     padding: 1rem;
     margin: .5rem;
-    background-color: #CCCCCC;
+    background-color: #f6fff8;
     border-radius: 5px;
 }
 
@@ -180,7 +179,7 @@ body {
 	right: 50px;
 }
 
-#hero section h2 {
+#hero h2 {
     position: absolute;
     top: 25px;
 	left: 50px;
@@ -212,6 +211,11 @@ body {
 .join {
     padding: 20px;
     font-size: 1.5rem;
+    background-color: #A4C3B2;
+}
+
+.join:hover {
+    background-color: #6B9080;
 }
 
 #spotlight{
@@ -219,7 +223,7 @@ body {
 }
 
 #spotlight div{    
-    background-color: #DDDDDD;
+    background-color: #EaF4F4;
 }
 
 #spot3 {
