@@ -28,7 +28,7 @@ const displayBus = (businesss) => {
   businesss.forEach((business) => {
     let card = document.createElement("section");
     card.innerHTML = `
-    <img src="${business.icon}">
+    <img src='${business.icon}' alt='${business.name}'>
     <p>${business.name}</p>
     <p>${business.address}</p>
     <p>${business.city}</p>
