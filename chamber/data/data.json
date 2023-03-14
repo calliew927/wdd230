@@ -1,0 +1,94 @@
+{
+    "Companies": [
+      {
+        "name": "Idaho Sewing for Sports",
+        "address": "11 Poplar Dr",
+        "city": "Grangeville, ID 83530",
+        "phoneNumber": "(208)983-0988",
+        "websiteUrl": "https://idsewing.com/",
+        "webShort": "idsewing.com",
+        "icon": "./images/directory/isfsLogo.webp",
+        "memLvl": "Gold"
+      },
+      {
+        "name": "Seasons Restaurant",
+        "address": "124 W Main St",
+        "city": "Grangeville, ID 83530",
+        "phoneNumber": "(208) 983-4203",
+        "websiteUrl": "https://www.facebook.com/Seasons.Grangeville/",
+        "webShort": "facebook.com/Seasons",
+        "icon": "./images/directory/seasonsLogo.jpg",
+        "memLvl": "Silver"
+      },
+      {
+        "name": "Crema Cafe",
+        "address": "111 N College St",
+        "city": "Grangeville, ID 83530",
+        "phoneNumber": "(208) 983-0490",
+        "websiteUrl": "https://www.cremacafeidaho.com/",
+        "webShort": "cremacafeidaho.com",
+        "icon": "./images/directory/cremaLogo.jpg",
+        "memLvl": "Bronse"
+      },
+      {
+        "name": "Oscar's Restaurant & Lounge",
+        "address": "101 E Main St",
+        "city": "Grangeville, ID 83530",
+        "phoneNumber": "(208) 983-2106",
+        "websiteUrl": "https://www.facebook.com/OscarsRestaurantAndLounge/",
+        "webShort": "facebook.com/OscarsRestaurant",
+        "icon": "./images/directory/oscarsLogo.jpg",
+        "memLvl": "Silver"
+      },
+      {
+        "name": "The Rib Guy and Gal",
+        "address": "45 US-95",
+        "city": "Grangeville, ID 83530",
+        "phoneNumber": "(208) 983-7427",
+        "websiteUrl": "https://www.facebook.com/theribguyandgal/",
+        "webShort": "facebook.com/theribguyandgal",
+        "icon": "./images/directory/theribs.jpg",
+        "memLvl": "Silver"
+      },
+      {
+        "name": "Subway",
+        "address": "179 Greenacres Ln",
+        "city": "Grangeville, ID 83530",
+        "phoneNumber": "(208) 983-3054",
+        "websiteUrl": "https://restaurants.subway.com/united-states/id/grangeville/179-greenacres-ln?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=16232&utm_campaign=evergreen-2020",
+        "webShort": "restaurants.subway.com",
+        "icon": "./images/directory/subwaylogo.jpg",
+        "memLvl": "Bronse"
+      },
+      {
+        "name": "The Depot",
+        "address": "105 US-95",
+        "city": "Grangeville, ID 83530",
+        "phoneNumber": "(208) 983-0176",
+        "websiteUrl": "https://grangevilledepot.weebly.com/",
+        "webShort": "grangevilledepot.weebly.com",
+        "icon": "./images/directory/thedepotLogo.jpg",
+        "memLvl": "Silver"
+      },
+      {
+        "name": "Jungle Gym",
+        "address": "1005 ID-13 Suite B",
+        "city": "Grangeville, ID 83530",
+        "phoneNumber": "(208) 507-3700",
+        "websiteUrl": "https://www.junglegymsfun.com/",
+        "webShort": "junglegymsfun.com",
+        "icon": "./images/directory/junglegymLogo.webp",
+        "memLvl": "Gold"
+      },
+      {
+        "name": "Syringa Hospotal",
+        "address": "607 W Main St",
+        "city": "Grangeville, ID 83530",
+        "phoneNumber": "(208) 983-1700",
+        "websiteUrl": "https://www.syringahospital.org/",
+        "webShort": "syringahospital.org",
+        "icon": "./images/directory/syringaLogo.png",
+        "memLvl": "Gold"
+      }
+    ]
+  }

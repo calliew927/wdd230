@@ -1,61 +1,55 @@
-var gridSelector = document.querySelector('#directory-grid');
-var listSelector = document.querySelector('#directory-list');
+var grid = document.querySelector('#directory-grid');
+var list = document.querySelector('#directory-list');
 var directoryData = document.querySelector('#directory-data');
-
-gridSelector.addEventListener('click', ()=>{
-    if (!gridSelector.classList.contains('active')){    
-        gridSelector.classList.add('active');
-        listSelector.classList.remove('active');
+ 
+grid.addEventListener('click', ()=>{
+    if (!grid.classList.contains('active')){    
+        grid.classList.add('active');
+        list.classList.remove('active');
         directoryData.classList.add('directory-cards')
         directoryData.classList.remove('directory-list')
     }
 });
 
-listSelector.addEventListener('click', ()=>{
-    if (!listSelector.classList.contains('active')){
-        listSelector.classList.add('active');
-        gridSelector.classList.remove('active');
+list.addEventListener('click', ()=>{
+    if (!list.classList.contains('active')){
+        list.classList.add('active');
+        grid.classList.remove('active');
         directoryData.classList.add('directory-list')
         directoryData.classList.remove('directory-cards')
     }
 });
 
+const url = "./data/data.json";
 
-// Load JSON data and do stuff
-const url = "./data/business.json";
-
-// COMPARE THIS TO THE VERSION FOUND IN THE W09 Activity: Working with JSON data and the Fetch API module
-// Using the innerHTML version is a little less Javascript intensive.
-const displayBusinesses = (businesss) => {
-  const cards = document.querySelector(".directory-cards"); // select the output container element
+const displayBus = (businesss) => {
+  const cards = document.querySelector(".directory-cards");
 
   businesss.forEach((business) => {
-    // Create elements to add to the div.cards element
     let card = document.createElement("section");
     card.innerHTML = `
-    <img src="${business.imageURL}">
+    <img src="${business.icon}">
     <p>${business.name}</p>
-    <p>${business.streetAddress}</p>
-    <p>${business.cityStateZip}</p>
-    <p><a href="${business.websiteURL}">${business.websiteURL}</a></p>
+    <p>${business.address}</p>
+    <p>${business.city}</p>
+    <p>${business.phoneNumber}</p>
+    <p><a href="${business.websiteUrl}">${business.webShort}</a></p>
     `;
-    if (business.membershipLevel=='gold'){
-      card.classList.add('gold-member');
-    }
+
     cards.appendChild(card);
-  }); // end of forEach loop
+  });
   
-}; // end of function expression
+};
 
 async function getBusinessData() {
   const response = await fetch(url);
   if (response.ok) {
     const data = await response.json();
-    displayBusinesses(data.businesses);
+    displayBus(data.Companies);
   } else {
-    console.error("There was an error loading the data.");
+    console.error("There was an error loading the directory data.");
     const cards = document.querySelector("directory-cards");
-    cards.innerHTML = "<section><h1>There was an error loading the data</h1></section>";
+    cards.innerHTML = "<section><h1>There was an error loading the dierectory data, please try again later.</h1></section>";
   }
 }
 
