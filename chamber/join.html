@@ -63,7 +63,7 @@
                     <input type="tel" id="phone" name="phone" placeholder="Ex: (999)999-9999" required>
                 </label>            
                 <label for="busname">Business Name:
-                    <input type="text" id="busname" name="busname" placeholder="Ex: Amazon" required>
+                    <input type="text" id="busname" name="busname" placeholder="Ex: Amazon" required pattern="[- A-Za-z]+" minlength="7">
                 </label>            
                 <label for="busdis">Business Discription:
                     <textarea id="busdis" name="busdis" placeholder="Discribe your business" required></textarea>
