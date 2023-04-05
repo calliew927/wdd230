@@ -15,22 +15,114 @@
 </head>
 <body>
     <header>
+        <div id="logo">
+            <a href="./index.html"><img src="./images/bountiful-foods.webp" alt="Bountiful Foods Logo"></a>
+        </div>
         <nav>
             <ul>
-                <li>Home</li>
-                <li>Fresh</li>
-                <li>About Us</li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./fresh.html">Fresh</a></li>
+                <li><a href="./aboutus.html">About Us</a></li>
             </ul>
         </nav>
+        <div id="socials">
+            <a href="https://www.facebook.com/"><img src="./images/facebook-logo.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/"><img src="./images/insta-logo.jpg" alt="Instagram"></a>
+            <a href="https://www.linkedin.com/feed/"><img src="./images/linkedin-logo.png" alt="Linkedin"></a>
+        </div>
     </header>
     <main>
-
+        <div id="callToAction">
+            <img id="main-img" src="./images/bountiful-food.jpg" alt="Fruit and Juice">
+            <h2>Welcome to Bountiful Foods!</h2>
+            <h3>Click the button below to order your smoothie!</h3>
+            <button type="button" id="fresh-button" onclick="window.location.href='fresh.html'"></button>
+        </div>
+        <div id="contact">
+            <p><strong>Address:</strong> 1132 W Cliff Dr, Santa Cruz, CA 95060</p>
+            <p><strong>Phone Number:</strong> 1(323)422-5720</p>
+            <p><strong>Hours:</strong>Monday - Saturday 6 AM - 8 PM</p>
+        </div>
+        <div id="customer-Reviews">
+            <div id="lisa">
+                <sectin class="rating">
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </sectin>
+                <h3>Lisa</h3>
+                <p>Oh! My! Gosh! I love those super smoothies they were so good I don't know what I would do without those smoothies, truly those smoothies changed my life.</p>
+            </div>
+            <div id="Brad">
+                <sectin class="rating">
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </sectin>
+                <h3>Brad</h3>
+                <p>My favorite smoothie was the super green with a kick of mango.</p>
+            </div>
+            <div id="Samantha">
+                <sectin class="rating">
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </sectin>
+                <h3>Samantha</h3>
+                <p>Those Smoothies were killer, I loved the strawberry banana kale.</p>
+            </div>
+        </div>
+        <div id="weather">
+            <h3 class="title">Weather</h3>
+            <figure>
+                <img src="" alt="" id="weather-icon">
+                <figcaption></figcaption>
+            </figure>
+            <p>Temp: <span id="current-temp"></span> &deg;F</p>
+            <p>Wind Speed: <span id="windSpeed"></span> MPH</p>
+            <p>Wind Chill: <span id="windchill"></span></p>
+            <div id="threeDayForecast">
+                <section id="day1">
+                    <figure>
+                        <img src="" alt="" id="weather-icon1">
+                        <figcaption></figcaption>
+                    </figure>
+                    <p>High: <span id="high1"></span> &deg;F</p>
+                </section>
+                <section id="day2">
+                    <figure>
+                        <img src="" alt="" id="weather-icon2">
+                        <figcaption></figcaption>
+                    </figure>
+                    <p>High: <span id="high2"></span> &deg;F</p>
+                </section>
+                <section id="day3">
+                    <figure>
+                        <img src="" alt="" id="weather-icon3">
+                        <figcaption></figcaption>
+                    </figure>
+                    <p>High: <span id="high3"></span> &deg;F</p>
+                </section>
+            </div>
+        </div>
     </main>
     <footer>
         <div id="contact-info">
-            <p><strong>Address:</strong></p>
-            <p><strong>Phone Number:</strong></p>
-            <p><strong>Hours:</strong></p>
+            <p><strong>Address:</strong> 1132 W Cliff Dr, Santa Cruz, CA 95060</p>
+            <p><strong>Phone Number:</strong> 1(323)422-5720</p>
+            <p><strong>Hours:</strong>Monday - Saturday 6 AM - 8 PM</p>
+        </div>
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3188.36455498383!2d-122.0432564553156!3d36.95334930000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e6a63aded0b51%3A0x181238534cfa8d4f!2s1132%20W%20Cliff%20Dr%2C%20Santa%20Cruz%2C%20CA%2095060!5e0!3m2!1sen!2sus!4v1680636516617!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </footer>
 </body>
