@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/fresh.css">
     <script src="./script/main.js" defer></script>
-    <script src="./script/fresh.js" defer></script>
     <style>@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Raleway:wght@400;500&display=swap');</style>
     <title>Bountiful Foods Fresh</title>
 </head>
@@ -19,10 +18,14 @@
         <div id="logo">
             <a href="./index.html"><img src="./images/bountiful-foods.webp" alt="Bountiful Foods Logo"></a>
         </div>
-        <nav>
+        <nav id="navbar">
+            <button id="ham-menu">
+                <span id="menu-close">&equiv;</span>
+                <span id="menu-open">x</span>
+            </button>
             <ul>
                 <li><a href="./index.html">Home</a></li>
-                <li><a href="./fresh.html">Fresh</a></li>
+                <li class="active"><a href="./fresh.html">Fresh</a></li>
                 <li><a href="./aboutus.html">About Us</a></li>
             </ul>
         </nav>
