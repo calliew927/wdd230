@@ -1,0 +1,35 @@
+main {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 1rem;
+    text-align: left;
+    font-size: 1.25rem;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: .5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+textarea {
+    height: 150px;
+}
+button {
+    background-color: #AF3168;
+    color: black;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #CE5086 ;
+}

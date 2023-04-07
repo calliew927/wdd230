@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Raleway:wght@400;500&display=swap');
+
+/*Header*/
+header{
+    background-color: #AF3168;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.logo {
+    padding: 2rem;
+}
+
+.socials{
+    margin: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social {
+    width: 60px;
+}
+
+/*Navigation*/
+nav ul {
+    display: none;
+    flex-direction: column;
+    padding-inline-start: 0px;
+    width: 100%;
+    background-color: #AF3168;  
+}
+  
+nav ul li {
+    list-style: none;
+    flex: 1;
+    margin: 2rem;
+}
+  
+nav a {
+    display: block;
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;    
+    color: white;
+}
+  
+nav a:hover {
+    background-color: #CE5086 ;  
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.active {
+    background-color: #CE5086 ;
+}
+
+/*Hamburger Menu*/
+#ham-menu {
+    background-color: #AF3168;
+    border: none;
+    font-size: 1.5rem;
+}
+
+#navbar {
+    display: none;
+}
+
+#menu-open {
+    display: none;
+    font-size: 2rem;
+    padding: .5rem;
+}
+
+#menu-close {
+    display: inline;
+    font-size: 2rem;
+    padding: 1.5rem;
+}
+
+#navbar.menu-active {
+    display: flex;
+}
+
+#menu-open.menu-active {
+    display: inline;
+}
+
+#menu-close.menu-active {
+    display: none;
+}
+
+/*main*/
+main {
+    background-color: #92BF5F;
+    padding:1rem;
+}
+
+h1, h2, h3, h4, h5, h6, a, label {
+    font-family: 'Raleway', sans-serif;
+}
+
+p, input, button{
+    font-family: 'Nunito', sans-serif;
+}
+
+button{ 
+    color:white;
+}
+
+/*footer*/
+footer {
+    background-color: #AF3168;
+    column-count: 2;
+    color:white;
+    padding:2rem;
+}
+
+#contact-info{
+    text-align: center;
+}
+
+@media screen and (min-width: 1100px) {
+    nav ul {
+        flex-direction: row;
+      }
+    
+      nav ul li {
+        text-align: center;
+      }
+    
+      #ham-menu{
+        display: none;
+      }
+    
+      #navbar {
+        display: flex;
+      }
+}
